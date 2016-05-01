@@ -6,13 +6,12 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ include file="header.jsp" %>
+<div class = "container">
+    <div class="block right form-reg">
 <form action="/queue" method="get">
 <div>
-Congratulation QueueMan:QueueMan:war:1.0-SNAPSHOT <br>
-    ${SessionValue}
-
-            <button class="btn btn-lg btn-primary btn-block"  name="Submit" value="login" type="Submit">Login</button>
-
+    <br><br><br>
+    <h3> ${s}</h3> <br>
 </div>
 </form>
 <%@ include file="footer.jsp" %>

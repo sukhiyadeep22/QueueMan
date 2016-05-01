@@ -9,14 +9,11 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import org.zendesk.client.v2.Zendesk;
-import org.zendesk.client.v2.model.Priority;
-import org.zendesk.client.v2.model.Status;
-import org.zendesk.client.v2.model.Ticket;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.HashSet;
-import java.util.Set;
+import org.python.core.*;
+import org.python.util.PythonInterpreter;
 
 @Repository
 public class CreationDAOImpl implements CreationDAO {
@@ -222,25 +219,36 @@ public class CreationDAOImpl implements CreationDAO {
         return Token;
     }
 
-    public Set Queue(HttpServletRequest request) {
-        Set<Ticket> set = new HashSet<Ticket>();
+    public void Queue(HttpServletRequest request) {
+        /*StringBuilder builder = new StringBuilder();*/
         try {
             request.getSession().setAttribute("UserSessionPage", "Queue");
-            String name = (String)request.getSession().getAttribute("UserSessionName");
-            String email = creationService.FetchEmail(name);
-            String token = creationService.FetchToken(name);
+            PythonInterpreter pi = new PythonInterpreter();
+            pi.execfile("");
+            /*String name = (String)request.getSession().getAttribute("UserSessionName");
+            String email = FetchEmail(name);
+            String token = FetchToken(name);
             Zendesk zd = new Zendesk.Builder("https://cliqr.zendesk.com")
                     .setUsername(email)
                     .setToken(token)
                     .build();
+
+            builder.append("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
+            builder.append("<Tickets>\n");
             for (Ticket ticket: zd.getTickets()) {
                 if(ticket.getStatus() == Status.NEW){
-                    set.add(ticket);
+                    builder.append("<Ticket>\n");
+                    builder.append("<id>"+ticket.getId()+"</id>\n");
+                    builder.append("<priority>"+ticket.getPriority()+"</priority>\n");
+                    builder.append("<subject>"+ticket.getSubject()+"</subject>\n");
+                    builder.append("<status>"+ticket.getStatus()+"</status>\n");
+                    builder.append("</Ticket>\n");
                 }
             }
+            builder.append("</Tickets>\n");*/
         }
         catch (Exception e){
         }
-        return set;
+        /*return builder;*/
     }
 }

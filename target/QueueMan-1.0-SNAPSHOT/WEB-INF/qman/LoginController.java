@@ -21,6 +21,7 @@ public class LoginController {
 
     @Autowired
     private qman.CreationService CreationService;
+    ModelAndView loginModel;
 
     @RequestMapping(value="/", method=RequestMethod.GET)
     public ModelAndView loginForm() {
@@ -33,25 +34,25 @@ public class LoginController {
     {
         try{
             request.getSession().setAttribute("UserSessionPage", "Login");
-            ModelAndView loginModel;
             Boolean Loginstatus = CreationService.CheckLogin(Username, Password);
             if (Loginstatus.equals(true))
             {
-                loginModel = new ModelAndView("Queue");
+
+                loginModel = new ModelAndView("LoginSuccess");
                 request.getSession().setAttribute("UserSessionId", request.getSession().getId().toString());
                 request.getSession().setAttribute("UserSessionName",CreationService.FetchName(Username));
+                String s = "Welcome " + CreationService.FetchName(Username) + ", Please start by Authorizing to Zendesk \n Once Authorized you can see all the Tickets";
+                loginModel.addObject("s",s);
             }
             else{
                 loginModel = new ModelAndView("index");
             }
-            return loginModel;
         }
         catch(Exception e){
             System.out.println(e);
-            ModelAndView loginModel = new ModelAndView("Error");
-            return loginModel;
+            loginModel = new ModelAndView("Error");
         }
-
+        return loginModel;
 
     }
 }

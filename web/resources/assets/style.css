@@ -84,9 +84,8 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 
 .container {
-	margin-left: inherit;
+	margin-left: inherit;;
 }
-
 
 /*contact*/
 #contact{background-color: #f5f5f5;}

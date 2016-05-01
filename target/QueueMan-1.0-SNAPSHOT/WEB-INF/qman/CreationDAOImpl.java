@@ -9,8 +9,14 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+import org.zendesk.client.v2.Zendesk;
+import org.zendesk.client.v2.model.Priority;
+import org.zendesk.client.v2.model.Status;
+import org.zendesk.client.v2.model.Ticket;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.HashSet;
+import java.util.Set;
 
 @Repository
 public class CreationDAOImpl implements CreationDAO {
@@ -25,6 +31,10 @@ public class CreationDAOImpl implements CreationDAO {
     private users user;
     private Boolean passChangeStatus;
     private String Username;
+    private Boolean tokenChangeStatus;
+    private String MailId;
+    private String Token;
+    CreationService creationService;
 
     public void addContact(users user) {
         sessionFactory.getCurrentSession().save(user);
@@ -42,28 +52,6 @@ public class CreationDAOImpl implements CreationDAO {
             } else {
                 status = false;
             }
-        } catch (Exception e) {
-            System.out.println("Exception Caught" + e);
-        }
-        return status;
-    }
-
-    public Boolean UpdateToken(String Username, String TokenValue) {
-
-        try {
-            Session session = sessionFactory.getCurrentSession();
-            String hql = "UPDATE users set AccessToken = :TokenValue " +
-                    "WHERE username = :Username";
-            Query query = session.createQuery(hql);
-            query.setParameter("TokenValue", TokenValue);
-            query.setParameter("Username", Username);
-            int result = query.executeUpdate();
-            if (result == 1) {
-                TokenStatus = true;
-            } else {
-                TokenStatus = false;
-            }
-            return TokenStatus;
         } catch (Exception e) {
             System.out.println("Exception Caught" + e);
         }
@@ -172,5 +160,95 @@ public class CreationDAOImpl implements CreationDAO {
             System.out.println("Exception Caught" + e);
         }
         return passChangeStatus;
+    }
+
+    public Boolean UpdateZenToken(String Username, String ZenToken, HttpServletRequest request){
+        try {
+            users usr = getUser(Username, request);
+            if (usr != null)
+            {
+                Session session = sessionFactory.getCurrentSession();
+                String updateToken = "UPDATE users set accesstoken = :AccessToken " + "WHERE name = :Username";
+                Query query = session.createQuery(updateToken);
+                query.setParameter("AccessToken", ZenToken);
+                query.setParameter("Username", Username);
+                int tokenUpdateresult = query.executeUpdate();
+                if (tokenUpdateresult == 1) {
+                    tokenChangeStatus = true;
+                } else {
+                    tokenChangeStatus = false;
+                }
+            }
+            else{
+                tokenChangeStatus = false;
+            }
+        } catch (Exception e) {
+            System.out.println("Exception Caught" + e);
+        }
+        return tokenChangeStatus;
+    }
+
+    public String FetchEmail(String Name){
+        try {
+            Session session = sessionFactory.getCurrentSession();
+            Query EmailQuery = session.createQuery("from users where name= :Name");
+            EmailQuery.setString("Name", Name);
+            Object obj = EmailQuery.uniqueResult();
+            users usr = (users) obj;
+            if (usr != null && usr.getMailId() !=null)
+            {
+                MailId = usr.getMailId();
+            }
+        } catch (Exception e) {
+            System.out.println("Exception Caught" + e);
+        }
+        return MailId;
+    }
+
+    public String FetchToken(String Name){
+        try {
+            Session session = sessionFactory.getCurrentSession();
+            Query TokenQuery = session.createQuery("from users where name= :Name");
+            TokenQuery.setString("Name", Name);
+            Object obj = TokenQuery.uniqueResult();
+            users usr = (users) obj;
+            if (usr != null && usr.getAccessToken() !=null)
+            {
+                Token = usr.getAccessToken();
+            }
+        } catch (Exception e) {
+            System.out.println("Exception Caught" + e);
+        }
+        return Token;
+    }
+
+    public StringBuilder Queue(HttpServletRequest request) {
+        try {
+            request.getSession().setAttribute("UserSessionPage", "Queue");
+            String name = (String)request.getSession().getAttribute("UserSessionName");
+            String email = FetchEmail(name);
+            String token = FetchToken(name);
+            Zendesk zd = new Zendesk.Builder("https://cliqr.zendesk.com")
+                    .setUsername(email)
+                    .setToken(token)
+                    .build();
+            StringBuilder builder = new StringBuilder();
+            builder.append("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
+            builder.append("<Tickets>\n");
+            for (Ticket ticket: zd.getTickets()) {
+                if(ticket.getStatus() == Status.NEW){
+                    builder.append("<Ticket>\n");
+                    builder.append("<id>"+ticket.getId()+"</id>\n");
+                    builder.append("<priority>"+ticket.getPriority()+"</priority>\n");
+                    builder.append("<subject>"+ticket.getSubject()+"</subject>\n");
+                    builder.append("<status>"+ticket.getStatus()+"</status>\n");
+                    builder.append("</Ticket>\n");
+                }
+            }
+            builder.append("</Tickets>\n");
+        }
+        catch (Exception e){
+        }
+        return builder;
     }
 }

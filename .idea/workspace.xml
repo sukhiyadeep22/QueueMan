@@ -1,7 +1,348 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4c76ea1-d7d8-461d-897c-bd06255e0a51" name="Default" comment="" />
+    <list default="true" id="b4c76ea1-d7d8-461d-897c-bd06255e0a51" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/qman/SLABreach.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/qman/Ticket.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/qman/Transfers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/ui/Transfers.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/ui/breach.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/FixedUri.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/TemplateUri.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/Uri.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/Zendesk.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/ZendeskException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/ZendeskResponseException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/Action.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/Attachment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/Audit.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/Automation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/Collaborator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/Comment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/Condition.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/Conditions.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/CustomFieldValue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/Field.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/Forum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/Group.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/GroupMembership.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/Identity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/JobStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/Macro.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/Metric.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/Organization.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/OrganizationField.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/Photo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/Priority.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/Request.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/Role.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/SatisfactionRating.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/SearchResultEntity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/Status.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/SuspendedTicket.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/Ticket.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/TicketForm.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/TicketRestriction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/TicketResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/Topic.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/TopicType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/Trigger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/TwitterMonitor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/Type.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/User.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/UserField.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/Via.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/events/AttachmentRedactionEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/events/CcEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/events/ChangeEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/events/CommentEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/events/CommentPrivacyChangeEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/events/CommentRedactionEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/events/CreateEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/events/ErrorEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/events/Event.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/events/ExternalEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/events/FacebookEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/events/LogMeInTranscriptEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/events/NotificationEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/events/OrganizationActivityEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/events/PublicPrivateEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/events/PushEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/events/SMSEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/events/SatisfactionRatingEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/events/TicketSharingEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/events/TweetEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/events/VoiceCommentEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/hc/Article.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/hc/ArticleAttachments.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/hc/Category.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/hc/Section.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/hc/Translation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/targets/BasecampTarget.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/targets/CampfireTarget.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/targets/EmailTarget.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/targets/PivotalTarget.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/targets/Target.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/targets/TwitterTarget.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/model/targets/UrlTarget.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/qman/PlainSet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/qman/QATicket.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/qman/TicketAPI.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/FixedUri.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/TemplateUri.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/Uri.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/Zendesk$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/Zendesk$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/Zendesk$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/Zendesk$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/Zendesk$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/Zendesk$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/Zendesk$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/Zendesk$BasicAsyncCompletionHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/Zendesk$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/Zendesk$PagedAsyncCompletionHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/Zendesk$PagedAsyncListCompletionHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/Zendesk$PagedIterable$PagedIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/Zendesk$PagedIterable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/Zendesk$ZendeskAsyncCompletionHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/Zendesk.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/ZendeskException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/ZendeskResponseException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Action$ActionDeserializer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Action.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Attachment$Upload.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Attachment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Audit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Automation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Collaborator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Comment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Condition.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Conditions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/CustomFieldValue.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Field$Option.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Field.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Forum$Access.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Forum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Group.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/GroupMembership.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Identity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/JobStatus$JobStatusEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/JobStatus.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Macro.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Metric$ZendeskComboMinutes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Metric.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Organization.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/OrganizationField.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Photo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Priority.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Request.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Role.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/SatisfactionRating.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/SearchResultEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Status.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/SuspendedTicket.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Ticket$Requester.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Ticket.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/TicketForm.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/TicketRestriction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/TicketResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Topic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/TopicType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Trigger$Condition.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Trigger$Conditions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Trigger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/TwitterMonitor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Type.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/UserField.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/Via.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/events/AttachmentRedactionEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/events/CcEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/events/ChangeEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/events/CommentEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/events/CommentPrivacyChangeEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/events/CommentRedactionEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/events/CreateEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/events/ErrorEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/events/Event.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/events/ExternalEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/events/FacebookEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/events/LogMeInTranscriptEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/events/NotificationEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/events/OrganizationActivityEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/events/PublicPrivateEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/events/PushEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/events/SMSEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/events/SatisfactionRatingEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/events/TicketSharingEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/events/TweetEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/events/VoiceCommentEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/hc/Article.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/hc/ArticleAttachments.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/hc/Category.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/hc/Section.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/hc/Translation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/targets/BasecampTarget.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/targets/CampfireTarget.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/targets/EmailTarget.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/targets/PivotalTarget.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/targets/Target.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/targets/TwitterTarget.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/org/zendesk/client/v2/model/targets/UrlTarget.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/lib/jersey-core-1.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/FixedUri.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/TemplateUri.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/Uri.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/Zendesk$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/Zendesk$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/Zendesk$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/Zendesk$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/Zendesk$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/Zendesk$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/Zendesk$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/Zendesk$BasicAsyncCompletionHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/Zendesk$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/Zendesk$PagedAsyncCompletionHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/Zendesk$PagedAsyncListCompletionHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/Zendesk$PagedIterable$PagedIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/Zendesk$PagedIterable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/Zendesk$ZendeskAsyncCompletionHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/Zendesk.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/ZendeskException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/ZendeskResponseException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Action$ActionDeserializer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Action.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Attachment$Upload.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Attachment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Audit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Automation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Collaborator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Comment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Condition.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Conditions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/CustomFieldValue.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Field$Option.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Field.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Forum$Access.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Forum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Group.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/GroupMembership.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Identity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/JobStatus$JobStatusEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/JobStatus.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Macro.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Metric$ZendeskComboMinutes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Metric.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Organization.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/OrganizationField.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Photo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Priority.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Request.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Role.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/SatisfactionRating.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/SearchResultEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Status.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/SuspendedTicket.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Ticket$Requester.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Ticket.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/TicketForm.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/TicketRestriction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/TicketResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Topic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/TopicType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Trigger$Condition.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Trigger$Conditions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Trigger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/TwitterMonitor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Type.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/UserField.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/Via.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/events/AttachmentRedactionEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/events/CcEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/events/ChangeEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/events/CommentEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/events/CommentPrivacyChangeEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/events/CommentRedactionEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/events/CreateEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/events/ErrorEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/events/Event.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/events/ExternalEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/events/FacebookEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/events/LogMeInTranscriptEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/events/NotificationEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/events/OrganizationActivityEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/events/PublicPrivateEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/events/PushEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/events/SMSEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/events/SatisfactionRatingEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/events/TicketSharingEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/events/TweetEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/events/VoiceCommentEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/hc/Article.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/hc/ArticleAttachments.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/hc/Category.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/hc/Section.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/hc/Translation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/targets/BasecampTarget.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/targets/CampfireTarget.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/targets/EmailTarget.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/targets/PivotalTarget.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/targets/Target.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/targets/TwitterTarget.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/zendesk/client/v2/model/targets/UrlTarget.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/qman/PlainSet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/qman/QATicket.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/qman/AuthenticationInterceptor.class" afterPath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/qman/AuthenticationInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/qman/CreationDAO.class" afterPath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/qman/CreationDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/qman/CreationDAOImpl.class" afterPath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/qman/CreationDAOImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/qman/CreationService.class" afterPath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/qman/CreationService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/qman/CreationServiceImpl.class" afterPath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/qman/CreationServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/qman/FollowupController.class" afterPath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/qman/FollowupController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/qman/LoginController.class" afterPath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/qman/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/qman/QueueController.class" afterPath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/qman/QueueController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/qman/AuthenticationInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/qman/AuthenticationInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/qman/CreationDAO.class" afterPath="$PROJECT_DIR$/target/classes/qman/CreationDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/qman/CreationDAOImpl.class" afterPath="$PROJECT_DIR$/target/classes/qman/CreationDAOImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/qman/CreationService.class" afterPath="$PROJECT_DIR$/target/classes/qman/CreationService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/qman/CreationServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/qman/CreationServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/qman/FollowupController.class" afterPath="$PROJECT_DIR$/target/classes/qman/FollowupController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/qman/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/qman/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/qman/QueueController.class" afterPath="$PROJECT_DIR$/target/classes/qman/QueueController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/QueueMan_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/QueueMan_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QueueMan.iml" afterPath="$PROJECT_DIR$/QueueMan.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/qman/AuthenticationInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/qman/AuthenticationInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/qman/CreationDAO.java" afterPath="$PROJECT_DIR$/src/main/java/qman/CreationDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/qman/CreationDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/qman/CreationDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/qman/CreationService.java" afterPath="$PROJECT_DIR$/src/main/java/qman/CreationService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/qman/CreationServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/qman/CreationServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/qman/FollowupController.java" afterPath="$PROJECT_DIR$/src/main/java/qman/FollowupController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/qman/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/qman/LoginController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/qman/QueueController.java" afterPath="$PROJECT_DIR$/src/main/java/qman/QueueController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/qman/AuthenticationInterceptor.java" afterPath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/qman/AuthenticationInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/qman/CreationDAOImpl.java" afterPath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/qman/CreationDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/qman/LoginController.java" afterPath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/qman/LoginController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/qman/QueueController.java" afterPath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/qman/QueueController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/resources/assets/style.css" afterPath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/resources/assets/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/resources/ui/Followup.jsp" afterPath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/resources/ui/Followup.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/resources/ui/LoginSuccess.jsp" afterPath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/resources/ui/LoginSuccess.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/resources/ui/Queue.jsp" afterPath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/resources/ui/Queue.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/resources/ui/Registration.jsp" afterPath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/resources/ui/Registration.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/resources/ui/Resetpassword.jsp" afterPath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/resources/ui/Resetpassword.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/resources/ui/ZenAuth.jsp" afterPath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/resources/ui/ZenAuth.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/resources/ui/header.jsp" afterPath="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/resources/ui/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/spring-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/spring-dispatcher-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/resources/assets/style.css" afterPath="$PROJECT_DIR$/web/resources/assets/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/resources/ui/Followup.jsp" afterPath="$PROJECT_DIR$/web/resources/ui/Followup.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/resources/ui/LoginSuccess.jsp" afterPath="$PROJECT_DIR$/web/resources/ui/LoginSuccess.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/resources/ui/Queue.jsp" afterPath="$PROJECT_DIR$/web/resources/ui/Queue.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/resources/ui/Registration.jsp" afterPath="$PROJECT_DIR$/web/resources/ui/Registration.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/resources/ui/Resetpassword.jsp" afterPath="$PROJECT_DIR$/web/resources/ui/Resetpassword.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/resources/ui/ZenAuth.jsp" afterPath="$PROJECT_DIR$/web/resources/ui/ZenAuth.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/resources/ui/header.jsp" afterPath="$PROJECT_DIR$/web/resources/ui/header.jsp" />
+    </list>
     <ignored path="QueueMan.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,11 +372,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TicketAPI.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/qman/TicketAPI.java">
+      <file leaf-file-name="QueueController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/qman/QueueController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="66">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/resources/ui/header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Transfers.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/resources/ui/Transfers.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/qman/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="29" column="5" selection-start-line="25" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="breach.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/resources/ui/breach.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Registration.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/resources/ui/Registration.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Transfers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/qman/Transfers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,6 +459,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -64,57 +470,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/userDAO/UserDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/qman/users/usersEntity.java" />
-        <option value="$PROJECT_DIR$/web/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/qman/userDAO/UserDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/qman/LoginDAO.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jdbc.properties" />
-        <option value="$PROJECT_DIR$/web/resources/assets/style.css" />
-        <option value="$PROJECT_DIR$/web/resources/ui/footer.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/qman/Python.java" />
         <option value="$PROJECT_DIR$/src/main/java/entityBeans/users.java" />
-        <option value="$PROJECT_DIR$/web/resources/ui/Resetpassword.jsp" />
-        <option value="$PROJECT_DIR$/web/resources/ui/Followup.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/qman/UserSession.java" />
-        <option value="$PROJECT_DIR$/web/resources/ui/ZenAuth.jsp" />
         <option value="$PROJECT_DIR$/web/resources/ui/TokenCode.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/qman/ZenAuth.java" />
         <option value="$PROJECT_DIR$/src/main/java/qman/ZenReqParam.java" />
         <option value="$PROJECT_DIR$/src/main/java/qman/creationDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/qman/SessionImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/qman/FollowupController.java" />
         <option value="$PROJECT_DIR$/src/main/java/qman/CliqrResponse.java" />
         <option value="$PROJECT_DIR$/web/resources/ui/Error.jsp" />
-        <option value="$PROJECT_DIR$/web/resources/ui/LoginSuccess.jsp" />
         <option value="$PROJECT_DIR$/web/resources/ui/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/qman/creationDAOImpl.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/spring-dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/java/qman/creationService.java" />
         <option value="$PROJECT_DIR$/src/main/java/qman/creationServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/qman/users.java" />
         <option value="$PROJECT_DIR$/src/main/java/qman/RegistrationController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/qman/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/qman/ResetPasswordController.java" />
         <option value="$PROJECT_DIR$/src/main/java/qman/Logout.java" />
-        <option value="$PROJECT_DIR$/web/resources/ui/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/qman/TokenCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qman/PlainSet.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/qman/CreationDAO.class" />
+        <option value="$PROJECT_DIR$/src/main/java/qman/CreationDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qman/CreationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qman/CreationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qman/TicketAPI.java" />
+        <option value="$PROJECT_DIR$/web/resources/python/tickets.py" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/spring-dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/java/qman/AuthenticationInterceptor.java" />
         <option value="$PROJECT_DIR$/web/resources/ui/Registration.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/qman/QueueController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/qman/CreationDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/qman/PlainSet.java" />
-        <option value="$PROJECT_DIR$/web/resources/ui/Queue.jsp" />
+        <option value="$PROJECT_DIR$/web/resources/ui/Resetpassword.jsp" />
+        <option value="$PROJECT_DIR$/web/resources/ui/ZenAuth.jsp" />
+        <option value="$PROJECT_DIR$/web/resources/assets/style.css" />
+        <option value="$PROJECT_DIR$/web/resources/python/newcases.py" />
+        <option value="$PROJECT_DIR$/web/resources/python/2day.py" />
+        <option value="$PROJECT_DIR$/web/resources/ui/Followup.jsp" />
+        <option value="$PROJECT_DIR$/web/resources/ui/tickets.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/qman/QATicket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qman/FollowupController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qman/SLABreach.java" />
         <option value="$PROJECT_DIR$/src/main/java/qman/Ticket.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/web/resources/python/urgent.py" />
+        <option value="$PROJECT_DIR$/src/main/java/qman/LoginController.java" />
+        <option value="$PROJECT_DIR$/web/resources/ui/LoginSuccess.jsp" />
+        <option value="$PROJECT_DIR$/web/resources/ui/Queue.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/qman/QueueController.java" />
         <option value="$PROJECT_DIR$/src/main/java/qman/CreationDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/qman/CreationServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/qman/CreationService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/qman/TicketAPI.java" />
+        <option value="$PROJECT_DIR$/web/resources/ui/breach.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/qman/Transfers.java" />
+        <option value="$PROJECT_DIR$/web/resources/ui/Transfers.jsp" />
+        <option value="$PROJECT_DIR$/web/resources/ui/header.jsp" />
       </list>
     </option>
   </component>
@@ -167,7 +573,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -185,9 +591,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -217,10 +620,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -344,34 +743,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="QueueMan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="QueueMan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="v2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,11 +756,11 @@
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/META-INF" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_cf76fc1621ac41ad4fe86c420ab5ff403f1808b9/cmd/git.exe" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27011493" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="isadmin&#9;PSI&#9;JAVA://qman.users#isAdmin&#10;qman.users&#9;null&#9;null&#10;footer&#9;null&#9;null&#10;jdbc&#9;FILE&#9;file://E:/Projects/QueueMan/web/WEB-INF/jdbc.properties" />
   </component>
@@ -394,11 +770,11 @@
       <recent name="entityBeans" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Projects\QueueMan\web\resources\python" />
       <recent name="E:\Projects\QueueMan\src\main\java\qman" />
       <recent name="E:\Projects\QueueMan\src\main\java" />
       <recent name="E:\Projects\QueueMan\src\main\java\users" />
       <recent name="E:\Projects\QueueMan\web\resources\ui" />
-      <recent name="E:\Projects\QueueMan\web\WEB-INF" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat">
@@ -638,6 +1014,26 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="QueueMan" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
       <option name="IOSSimulatorSdkPath" value="" />
@@ -803,6 +1199,52 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="QueueMan" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="QueueMan" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="QueueMan" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -873,6 +1315,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="QueueMan" />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -893,6 +1348,116 @@
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="QueueMan" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="QueueMan" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="QueueMan" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="QueueMan" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="QueueMan" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.671" ALTERNATIVE_JRE_ENABLED="false">
@@ -1009,18 +1574,26 @@
       <workItem from="1460365060141" duration="2769000" />
       <workItem from="1460614190060" duration="36004000" />
       <workItem from="1461312187251" duration="90000" />
+      <workItem from="1461586370053" duration="8277000" />
+      <workItem from="1461608220160" duration="219000" />
+      <workItem from="1461635631017" duration="10829000" />
+      <workItem from="1461730269449" duration="599000" />
+      <workItem from="1461919621626" duration="21031000" />
+      <workItem from="1462077800048" duration="628000" />
+      <workItem from="1462111520403" duration="15178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="254485000" />
+    <option name="totallyTimeSpent" value="311246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3236715" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1028,26 +1601,25 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36876008" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18518518" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23600605" sideWeight="0.48349056" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23600605" sideWeight="0.48349056" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.512987" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49361023" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20877458" sideWeight="0.5165094" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26409018" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29146537" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3236715" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.215781" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993559" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1100,26 +1672,31 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes as on 1st May" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes as on 1st May" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/qman/users.java</url>
-          <line>35</line>
-          <properties class="qman.users" method="getIsAdmin" />
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/qman/RegistrationController.java</url>
-          <line>56</line>
-          <properties />
-          <option name="timeStamp" value="73" />
+        <line-breakpoint type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/qman/AuthenticationInterceptor.java</url>
+          <line>12</line>
+          <properties field="status" class="qman.AuthenticationInterceptor" />
+          <option name="timeStamp" value="86" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="77" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="94" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1128,200 +1705,130 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/resources/images/dead.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/images/dead.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/resources/images/dead.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/ui/Error.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/qman/ZenAuth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="110" column="18" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="323">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.0.RELEASE/spring-webmvc-4.2.0.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/qman/TokenCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="680">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.0.RELEASE/spring-webmvc-4.2.0.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="482" column="0" selection-start-line="482" selection-start-column="0" selection-end-line="482" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.0.RELEASE/spring-webmvc-4.2.0.RELEASE.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/qman/LoginController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/ui/LoginSuccess.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/Zendesk.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/ning/async-http-client/1.9.15/async-http-client-1.9.15.jar!/com/ning/http/client/RequestBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="244" column="0" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/ning/async-http-client/1.9.15/async-http-client-1.9.15.jar!/com/ning/http/client/RequestBuilderBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/ning/async-http-client/1.9.15/async-http-client-1.9.15.jar!/com/ning/http/util/QueryComputer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/FixedUri.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/Uri.java" />
+    <entry file="file://$PROJECT_DIR$/target/QueueMan-1.0-SNAPSHOT/WEB-INF/classes/qman/CreationDAO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qman/CreationDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qman/CreationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qman/PlainSet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/qman/TicketAPI.java" />
+    <entry file="file://$PROJECT_DIR$/web/resources/python/ticketstest.py" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.0.RELEASE/spring-webmvc-4.2.0.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qman/CreationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/ui/index.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="110" column="6" selection-start-line="110" selection-start-column="6" selection-end-line="110" selection-end-column="6" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.0.RELEASE/spring-webmvc-4.2.0.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/qman/AuthenticationInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="418" column="0" selection-start-line="418" selection-start-column="0" selection-end-line="418" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.0.RELEASE/spring-webmvc-4.2.0.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="495" column="0" selection-start-line="495" selection-start-column="0" selection-end-line="495" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/spring-dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="4" selection-end-line="25" selection-end-column="26" />
+        <state relative-caret-position="180">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.2.0.RELEASE/spring-core-4.2.0.RELEASE.jar!/org/springframework/util/ReflectionUtils.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.0.RELEASE/spring-webmvc-4.2.0.RELEASE.jar!/org/springframework/web/servlet/handler/HandlerInterceptorAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="218" column="0" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.2.0.RELEASE/spring-aop-4.2.0.RELEASE.jar!/org/springframework/aop/target/SingletonTargetSource.class">
+    <entry file="file://$PROJECT_DIR$/web/resources/ui/Error.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="-224">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.2.0.RELEASE/spring-aop-4.2.0.RELEASE.jar!/org/springframework/aop/framework/AdvisedSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="362" column="0" selection-start-line="362" selection-start-column="0" selection-end-line="362" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.2.0.RELEASE/spring-core-4.2.0.RELEASE.jar!/org/springframework/core/BridgeMethodResolver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.2.0.RELEASE/spring-aop-4.2.0.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.2.0.RELEASE/spring-core-4.2.0.RELEASE.jar!/org/springframework/util/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.2.0.RELEASE/spring-core-4.2.0.RELEASE.jar!/org/springframework/util/ObjectUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.jar!/org/springframework/transaction/interceptor/AbstractFallbackTransactionAttributeSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="166" column="51" selection-start-line="166" selection-start-column="51" selection-end-line="166" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.2.0.RELEASE/spring-aop-4.2.0.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.2.0.RELEASE/spring-aop-4.2.0.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qman/users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding>
-            <element signature="e#1769#1770#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qman/Logout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/ui/ZenAuth.jsp">
+    <entry file="file://$PROJECT_DIR$/web/resources/ui/footer.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1329,24 +1836,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/ui/header.jsp">
+    <entry file="file://$PROJECT_DIR$/web/resources/ui/Resetpassword.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="120" column="47" selection-start-line="120" selection-start-column="47" selection-end-line="120" selection-end-column="47" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qman/ResetPasswordController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qman/ZenReqParam.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/qman/UserSession.java" />
     <entry file="file://$PROJECT_DIR$/web/resources/ui/TokenCode.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1355,185 +1852,225 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qman/RegistrationController.java">
+    <entry file="file://$PROJECT_DIR$/web/resources/ui/ZenAuth.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/assets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/python/tickets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/python/2day.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/python/newcases.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/ui/Followup.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qman/SLABreach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qman/Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/python/urgent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qman/FollowupController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/ui/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="110" column="6" selection-start-line="110" selection-start-column="6" selection-end-line="110" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/ui/LoginSuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.0.RELEASE/spring-web-4.2.0.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="153" column="22" selection-start-line="153" selection-start-column="22" selection-end-line="153" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qman/AuthenticationInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state relative-caret-position="120">
+          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/ui/Registration.jsp">
+    <entry file="file://$PROJECT_DIR$/web/resources/ui/tickets.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="90" selection-start-line="18" selection-start-column="90" selection-end-line="18" selection-end-column="90" />
+        <state relative-caret-position="170">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qman/TokenCode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/qman/users.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qman/ZenAuth.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="41" />
+        <state relative-caret-position="120">
+          <caret line="436" column="0" selection-start-line="436" selection-start-column="0" selection-end-line="436" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qman/PlainSet.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/net/URLClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="365" column="0" selection-start-line="365" selection-start-column="0" selection-end-line="365" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/resources/ui/Queue.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qman/CreationDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/qman/QueueController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        <state relative-caret-position="66">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/ui/breach.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/ui/Registration.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/qman/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="41" column="66" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="66" />
+        <state relative-caret-position="245">
+          <caret line="29" column="5" selection-start-line="25" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/zendesk/client/v2/Zendesk.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/qman/Transfers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="1858" column="48" selection-start-line="1858" selection-start-column="48" selection-end-line="1858" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="238" column="19" selection-start-line="238" selection-start-column="19" selection-end-line="238" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qman/QATicket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qman/CreationDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="224" column="4" selection-start-line="224" selection-start-column="4" selection-end-line="224" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#CheckLogin#0;class#CreationDAOImpl#0" expanded="false" />
-            <element signature="method#FetchName#0;class#CreationDAOImpl#0" expanded="false" />
-            <element signature="method#FetchUsername#0;class#CreationDAOImpl#0" expanded="false" />
-            <element signature="method#isAdmin#0;class#CreationDAOImpl#0" expanded="false" />
-            <element signature="method#getExistingPass#0;class#CreationDAOImpl#0" expanded="false" />
-            <element signature="method#getUser#0;class#CreationDAOImpl#0" expanded="false" />
-            <element signature="method#setNewPass#0;class#CreationDAOImpl#0" expanded="false" />
-            <element signature="method#UpdateZenToken#0;class#CreationDAOImpl#0" expanded="false" />
-            <element signature="method#FetchEmail#0;class#CreationDAOImpl#0" expanded="false" />
-            <element signature="method#FetchToken#0;class#CreationDAOImpl#0" expanded="false" />
-            <element signature="e#7766#7774#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qman/CreationDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qman/CreationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qman/CreationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="22" />
+        <state relative-caret-position="340">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qman/TicketAPI.java">
+    <entry file="file://$PROJECT_DIR$/web/resources/ui/Transfers.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/ui/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>

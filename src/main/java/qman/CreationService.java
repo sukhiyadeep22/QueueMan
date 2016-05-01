@@ -19,5 +19,5 @@ public interface CreationService {
     public Boolean UpdateZenToken(String Username, String ZenToken, HttpServletRequest request);
     public String FetchEmail(String Name);
     public String FetchToken(String Name);
-    public Set Queue();
+    public void Queue(HttpServletRequest request);
 }

@@ -46,6 +46,12 @@
             margin: 0 auto;
         }
 
+        .form-reg2 {
+            max-width: 70%;
+            padding: 30px 40px 33px 10%;
+            margin: 0 auto;
+        }
+
         .form-signin-heading {
             text-align:center;
             margin-bottom: 30px;
@@ -86,10 +92,7 @@
             background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
             background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
         }
-
-        .table {
-            border: none;
-        }
+        .table {border-collapse: collapse; width: 100%;}
     </style>
 
 </head>
@@ -104,7 +107,7 @@
                     <div>
                         <div class="navbar-header">
                             <!-- Logo Starts -->
-                            <a class="navbar-brand navbar-form" href="home"><img src="/resources/images/logo.png" alt="logo" /></a>
+                            <a class="navbar-brand navbar-form" href="/queue"><img src="/resources/images/logo.png" alt="logo" /></a>
                             <!-- #Logo Ends -->
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
                                 <span class="sr-only">Toggle navigation</span>
@@ -115,10 +118,16 @@
                         </div>
                         <div class="navbar-collapse  collapse">
                             <ul class="nav navbar-nav scroll">
-                                <li class="active"><a href="/queue">Tickets</a></li>
-                                <li ><a href="/followup">Followup</a></li>
-                                <li ><a href="/transfers">Transfers</a></li>
-                                <li ><a href="/escalation">Escalation</a></li>
+                                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Tickets View<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                    <li class="active"><a href="/queue">New Tickets</a></li>
+                                    <li><a href="/breach">SLA Breaching Tickets</a></li>
+                                    <li><a href="/followup">Urgent and High Tickets</a></li>
+                                    <li><a href="/tickets">2 Days Followup Tickets</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="/transfers">Transfers</a></li>
+                                <li><a href="/escalation">Escalation</a></li>
                             </ul>
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="dropdown scroll collapse">
@@ -139,5 +148,3 @@
         </div>
     </div>
 </div>
-<div class = "container">
-    <div class="block right form-reg">

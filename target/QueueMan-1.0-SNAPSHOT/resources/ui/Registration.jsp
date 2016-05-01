@@ -7,6 +7,8 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <<%@ include file="header.jsp" %>
+<div class = "container">
+    <div class="block right form-reg">
 <form action="/registration" method="post" >
     <div>
         <h3 class="form-signin-heading">New User Registration</h3>
@@ -16,7 +18,7 @@
         <input type="text" class="form-control" name="Name" placeholder="Full Name" required="yes" autofocus="" />
         <input type="password" class="form-control" name="Password" placeholder="Password" required="yes"/>
         <input type="password" class="form-control" name="ReTypePassword" placeholder="Re-Type Password" required="yes"/>
-        <input type="text" class="form-control" name="mailId" placeholder="E Mail ID" required="yes"/>
+        <input type="text" class="form-control" name="mailId" placeholder="Zendesk E-Mail ID" required="yes"/>
         <br />
         <button class="btn btn-lg btn-primary btn-block"  name="CreateUser" value="CreateUser" type="CreateUser">Create User</button>
     </div>

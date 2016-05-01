@@ -11,19 +11,17 @@
        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
 
     <context:component-scan base-package="qman"></context:component-scan>
-    <context:component-scan base-package="org.zendesk.client.v2"></context:component-scan>
 
     <mvc:annotation-driven/>
     <tx:annotation-driven></tx:annotation-driven>
 
     <mvc:resources mapping="/resources/**" location="/resources/"/>
-    <!--<mvc:interceptors>
+    <mvc:interceptors>
         <mvc:interceptor>
-            <mvc:mapping path="/*"/>
+            <mvc:mapping path="*"/>
             <bean class="qman.AuthenticationInterceptor"></bean>
         </mvc:interceptor>
-
-    </mvc:interceptors>-->
+    </mvc:interceptors>
 
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.InternalResourceViewResolver" >

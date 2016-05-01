@@ -6,6 +6,8 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ include file="header.jsp" %>
+<div class = "container">
+    <div class="block right form-reg">
 <form action="/ZenAuth" method="post" >
     <div>
         <h3 class="form-signin-heading">Click Authorize Button To Receive a Token from Zendesk</h3>

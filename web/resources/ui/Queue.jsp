@@ -1,17 +1,17 @@
-<%@ page import="qman.PlainSet" %>
-<%@ page import="java.util.Set" %>
-<%@ page import="java.util.Iterator" %>
-<%@ page import="org.zendesk.client.v2.model.Ticket" %>
+
 <%@ include file="header.jsp" %>
-<table class=" table table-striped">
-    <tr><th>Ticket Number</th><th>Ticket Owner</th><th>Ticket Type</th><th>Ticket Subject</th><th>Time to Breach in Hours</th><th>Time to Breach in Minutes</th>
-        <tr></tr><td>
-    <%
-        PlainSet pl= new PlainSet();
-        Set s = pl.GetTableSet(request);
-        while (s.){
-        Ticket t = i.getClass();
-        }
-    %>
-</table>
+<style>
+    .tableside {margin-left: 0%; width: 99%;margin-right: 50px; padding-top: 40px}
+    .tr:nth-child(even){background-color: #f2f2f2}
+    .th {background-color: #00accc; color: white;}
+    .table {border-collapse: collapse; width: 100%;}
+    .th, td {text-align: left; padding: 8px;}
+</style>
+<script>setTimeout(function(){window.location.href='/breach'},50000);</script>
+
+<div class = "container">
+    <div>
+        <div style="padding-top: 50px"><div/>
+        <h3>New Tickets</h3>
+        ${s}
 <%@ include file="footer.jsp" %>

@@ -15,7 +15,6 @@ import java.util.Set;
 public class CreationServiceImpl implements CreationService {
     @Autowired
     private CreationDAO cdDAO;
-    HttpServletRequest request1;
 
     @Transactional
     public void addContact(users user) {
@@ -85,8 +84,7 @@ public class CreationServiceImpl implements CreationService {
     }
 
     @Transactional
-    public Set Queue(){
-        Set ss = cdDAO.Queue(request1);
-        return ss;
+    public void Queue(HttpServletRequest request){
+        cdDAO.Queue(request);
     }
 }
