@@ -27,14 +27,6 @@
                             <filtering>false</filtering>
                         </resource>
                         <resource>
-                            <directory>${basedir}\web\resources\conf</directory>
-                            <targetPath>resources/conf</targetPath>
-                            <includes>
-                                <include>**/*.*</include>
-                            </includes>
-                            <filtering>false</filtering>
-                        </resource>
-                        <resource>
                             <directory>${basedir}\web\resources\images</directory>
                             <targetPath>resources/images</targetPath>
                             <includes>
