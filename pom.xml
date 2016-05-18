@@ -19,7 +19,7 @@
                 <configuration>
                     <webResources>
                         <resource>
-                            <directory>${basedir}/web/resources/assets</directory>
+                            <directory>${basedir}/web/resources/assets/</directory>
                             <targetPath>resources/assets</targetPath>
                             <includes>
                                 <include>**/*.*</include>
