@@ -19,7 +19,7 @@
                 <configuration>
                     <webResources>
                         <resource>
-                            <directory>${basedir}\web\resources\assets</directory>
+                            <directory>${basedir}/web/resources/assets</directory>
                             <targetPath>resources/assets</targetPath>
                             <includes>
                                 <include>**/*.*</include>
@@ -27,7 +27,7 @@
                             <filtering>false</filtering>
                         </resource>
                         <resource>
-                            <directory>${basedir}\web\resources\images</directory>
+                            <directory>${basedir}/web/resources/images</directory>
                             <targetPath>resources/images</targetPath>
                             <includes>
                                 <include>**/*.*</include>
@@ -35,7 +35,7 @@
                             <filtering>false</filtering>
                         </resource>
                         <resource>
-                            <directory>${basedir}\web\resources\python</directory>
+                            <directory>${basedir}/web/resources/python</directory>
                             <targetPath>resources/python</targetPath>
                             <includes>
                                 <include>**/*.*</include>
@@ -43,51 +43,51 @@
                             <filtering>false</filtering>
                         </resource>
                         <resource>
-                            <directory>${basedir}\web\resources\ui</directory>
+                            <directory>${basedir}/web/resources/ui</directory>
                             <targetPath>resources/ui</targetPath>
                             <includes>
                                 <include>*.jsp</include>
                             </includes>
-                            <filtering>true</filtering>
+                            <filtering>false</filtering>
                         </resource>
                         <resource>
-                            <directory>${basedir}\web\WEB-INF</directory>
+                            <directory>${basedir}/web/WEB-INF</directory>
                             <targetPath>/WEB-INF</targetPath>
                             <includes>
                                 <include>web.xml</include>
                             </includes>
-                            <filtering>true</filtering>
+                            <filtering>false</filtering>
                         </resource>
                         <resource>
-                            <directory>${basedir}\web\WEB-INF</directory>
+                            <directory>${basedir}/web/WEB-INF</directory>
                             <targetPath>/WEB-INF</targetPath>
                             <includes>
                                 <include>spring-dispatcher-servlet.xml</include>
                             </includes>
                         </resource>
                         <resource>
-                            <directory>${basedir}\web\WEB-INF</directory>
+                            <directory>${basedir}/web/WEB-INF</directory>
                             <targetPath>/WEB-INF</targetPath>
                             <includes>
                                 <include>jdbc.properties</include>
                             </includes>
-                            <filtering>true</filtering>
+                            <filtering>false</filtering>
                         </resource>
                         <resource>
-                            <directory>${basedir}\src\main\java</directory>
+                            <directory>${basedir}/src/main/java</directory>
                             <targetPath>/WEB-INF</targetPath>
                             <includes>
                                 <include>applicationContext.xml</include>
                             </includes>
-                            <filtering>true</filtering>
+                            <filtering>false</filtering>
                         </resource>
                         <resource>
-                            <directory>${basedir}\src\main\java</directory>
+                            <directory>${basedir}/src/main/java</directory>
                             <targetPath>/WEB-INF/classes</targetPath>
                             <includes>
                                 <include>hibernate.cfg.xml</include>
                             </includes>
-                            <filtering>true</filtering>
+                            <filtering>false</filtering>
                         </resource>
                     </webResources>
                 </configuration>
