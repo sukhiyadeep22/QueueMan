@@ -24,7 +24,6 @@
                             <includes>
                                 <include>**/*.*</include>
                             </includes>
-                            <filtering>true</filtering>
                         </resource>
                         <resource>
                             <directory>${basedir}/web/resources/images</directory>
@@ -32,7 +31,6 @@
                             <includes>
                                 <include>**/*.*</include>
                             </includes>
-                            <filtering>false</filtering>
                         </resource>
                         <resource>
                             <directory>${basedir}/web/resources/python</directory>
@@ -40,7 +38,6 @@
                             <includes>
                                 <include>**/*.*</include>
                             </includes>
-                            <filtering>false</filtering>
                         </resource>
                         <resource>
                             <directory>${basedir}/web/resources/ui</directory>
@@ -48,7 +45,6 @@
                             <includes>
                                 <include>*.jsp</include>
                             </includes>
-                            <filtering>false</filtering>
                         </resource>
                         <resource>
                             <directory>${basedir}/web/WEB-INF</directory>
@@ -56,7 +52,6 @@
                             <includes>
                                 <include>web.xml</include>
                             </includes>
-                            <filtering>false</filtering>
                         </resource>
                         <resource>
                             <directory>${basedir}/web/WEB-INF</directory>
@@ -71,7 +66,6 @@
                             <includes>
                                 <include>jdbc.properties</include>
                             </includes>
-                            <filtering>false</filtering>
                         </resource>
                         <resource>
                             <directory>${basedir}/src/main/java</directory>
@@ -79,7 +73,6 @@
                             <includes>
                                 <include>applicationContext.xml</include>
                             </includes>
-                            <filtering>false</filtering>
                         </resource>
                         <resource>
                             <directory>${basedir}/src/main/java</directory>
@@ -87,7 +80,6 @@
                             <includes>
                                 <include>hibernate.cfg.xml</include>
                             </includes>
-                            <filtering>false</filtering>
                         </resource>
                     </webResources>
                 </configuration>
