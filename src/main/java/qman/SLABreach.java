@@ -23,7 +23,7 @@ public class SLABreach {
         String s = null;
         StringBuilder sb = new StringBuilder();
         try {
-            String PyComm = "python E:\\Projects\\QueueMan\\target\\QueueMan-1.0-SNAPSHOT\\resources\\python\\tickets.py " + creationService.FetchToken((String)request.getSession().getAttribute("UserSessionName")).trim();
+            String PyComm = "python /usr/local/tomcat7/webapps/ROOT/resources/python/tickets.py " + creationService.FetchToken((String)request.getSession().getAttribute("UserSessionName")).trim();
             Process pe = Runtime.getRuntime().exec(PyComm);
             BufferedReader stdInput = new BufferedReader(new InputStreamReader(pe.getInputStream()));
             while ((s = stdInput.readLine()) != null) {

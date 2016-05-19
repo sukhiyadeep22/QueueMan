@@ -25,7 +25,7 @@ public class FollowupController {
         String a = null;
         StringBuilder sa = new StringBuilder();
         try {
-            String PyComm1 = "python E:\\Projects\\QueueMan\\target\\QueueMan-1.0-SNAPSHOT\\resources\\python\\urgent.py " + creationService.FetchToken((String)request.getSession().getAttribute("UserSessionName")).trim();
+            String PyComm1 = "python /usr/local/tomcat7/webapps/ROOT/resources/python/urgent.py " + creationService.FetchToken((String)request.getSession().getAttribute("UserSessionName")).trim();
             Process pa = Runtime.getRuntime().exec(PyComm1);
             BufferedReader stdInput1 = new BufferedReader(new InputStreamReader(pa.getInputStream()));
             while ((a = stdInput1.readLine()) != null) {
