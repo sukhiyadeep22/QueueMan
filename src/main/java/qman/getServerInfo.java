@@ -7,9 +7,10 @@ import java.util.Properties;
 
 public class getServerInfo {
 	String result = "";
+	String resultport = "";
 	InputStream inputStream;
  
-	public String getPropValues() throws IOException {
+	public String getPropValueIP() throws IOException {
  
 		try {
 			Properties prop = new Properties();
@@ -33,5 +34,32 @@ public class getServerInfo {
 			inputStream.close();
 		}
 		return result;
+	}
+	
+	public String getPropValuePort() throws IOException {
+		 
+
+		try {
+			Properties prop = new Properties();
+			String propFileName = "serverinfo.properties";
+ 
+			inputStream = getClass().getClassLoader().getResourceAsStream(propFileName);
+ 
+			if (inputStream != null) {
+				prop.load(inputStream);
+			} else {
+				throw new FileNotFoundException("property file '" + propFileName + "' not found in the classpath");
+			}
+ 
+			// get the property value and print it out
+			String port = prop.getProperty("port");
+			
+			resultport = port;
+		} catch (Exception e) {
+			System.out.println("Exception: " + e);
+		} finally {
+			inputStream.close();
+		}
+		return resultport;
 	}
 }

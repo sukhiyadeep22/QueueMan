@@ -68,6 +68,13 @@
                             </includes>
                         </resource>
                         <resource>
+                            <directory>${basedir}/web/WEB-INF</directory>
+                            <targetPath>/WEB-INF</targetPath>
+                            <includes>
+                                <include>serverinfo.properties</include>
+                            </includes>
+                        </resource>
+                        <resource>
                             <directory>${basedir}/src/main/java</directory>
                             <targetPath>/WEB-INF</targetPath>
                             <includes>

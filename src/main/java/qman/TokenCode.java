@@ -10,6 +10,9 @@ import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.WebResource;
 import org.springframework.web.servlet.ModelAndView;
+
+import java.io.IOException;
+
 import javax.servlet.http.HttpServletRequest;
 
 /**
@@ -23,10 +26,13 @@ public class TokenCode {
     @Autowired
     CreationService creationService;
     ModelAndView model;
+    
 
     @RequestMapping(value="/TokenCode", method= RequestMethod.GET)
-    public String ZenAuthForm(HttpServletRequest request){
+    public String ZenAuthForm(HttpServletRequest request) throws IOException{
         try {
+        	String resultIP = new getServerInfo().getPropValueIP();
+            String resultport = new getServerInfo().getPropValuePort();
             Boolean updateStatus;
             Client client = Client.create();
             String Code = request.getParameter("code");
@@ -48,19 +54,21 @@ public class TokenCode {
             updateStatus = creationService.UpdateZenToken(Name,ZenToken,request);
             if (updateStatus.equals(true)){
                 model = new ModelAndView("Queue");
-                String test = "redirect:" + "http://localhost:8080/queue";
+                String test = "redirect:" + "http://"+resultIP+":"+resultport+"/queue";
                 return test;
             }
             else{
                 model = new ModelAndView("Error");
-                String test = "redirect:" + "http://localhost:8080/Error";
+                String test = "redirect:" + "http://"+resultIP+":"+resultport+"/Error";
                 return test;
             }
         } catch (Exception e) {
+        	String resultIP = new getServerInfo().getPropValueIP();
+            String resultport = new getServerInfo().getPropValuePort();
             e.printStackTrace();
             model = new ModelAndView("Error");
             //return  model;
-            String test = "redirect:" + "http://localhost:8080/Error";
+            String test = "redirect:" + "http://"+resultIP+":"+resultport+"/Error";
             return test;
         }
     }
