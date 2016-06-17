@@ -38,7 +38,7 @@ public class TokenCode {
             String Code = request.getParameter("code");
             WebResource webResource = client
                     .resource("https://cliqr.zendesk.com/oauth/tokens");
-            String input = "{\"grant_type\": \"authorization_code\", \"code\": \"" + Code + "\", \"client_id\": \"queueman\", \"client_secret\": \"6b3dccc4ac61ae7c11b617767ef381b08609006b54a570fbe68bff57577a12a4\", \"redirect_uri\": \"http://localhost:8080/TokenCode\", \"scope\": \"read write\" }";
+            String input = "{\"grant_type\": \"authorization_code\", \"code\": \"" + Code + "\", \"client_id\": \"queueman\", \"client_secret\": \"6b3dccc4ac61ae7c11b617767ef381b08609006b54a570fbe68bff57577a12a4\", \"redirect_uri\": \"http://"+resultIP+":"+resultport+"/TokenCode\", \"scope\": \"read write\" }";
             ClientResponse response = webResource.type("application/json")
                     .post(ClientResponse.class, input);
             if (response.getStatus() != 200) {

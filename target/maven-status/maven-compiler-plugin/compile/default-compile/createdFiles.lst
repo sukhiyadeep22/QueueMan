@@ -11,6 +11,7 @@ qman/Logout.class
 qman/SLABreach.class
 qman/CreationService.class
 qman/users.class
+qman/getServerInfo.class
 qman/CreationDAOImpl.class
 qman/Transfers.class
 qman/AuthenticationInterceptor.class
