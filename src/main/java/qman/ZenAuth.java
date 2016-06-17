@@ -35,7 +35,7 @@ public class ZenAuth {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-        String redirectUrl = "https://cliqr.zendesk.com/oauth/authorizations/new?response_type=code&redirect_uri=http://"+resultIP+":"+resultport+"/TokenCode&client_id=queueman&scope=read%20write";
+        String redirectUrl = "https://cliqr.zendesk.com/oauth/authorizations/new?response_type=code&redirect_uri=https://"+resultIP+":"+resultport+"/TokenCode&client_id=queueman&scope=read%20write";
         return "redirect:" + redirectUrl;
     }
 }
